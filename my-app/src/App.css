@@ -1,0 +1,41 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "H S H"
+  "H M H"
+  "G M K";
+  grid-template-rows: 200px 1fr 100px;
+  grid-template-columns: 100px 1fr 100px;
+  
+}
+
+.Mainss {
+ grid-area: M;
+}
+
+.Header{
+  grid-area: H;
+  background-color: rgb(218, 31, 31);
+  width: 200px;
+  height: 100px;
+
+}
+
+
+.Goals {
+  grid-area: G;
+ background-color: aqua;
+}
+
+.Knopka{
+  grid-area: K;
+
+}
+
+.Strelka {
+  grid-area: S;
+  height: 1fr;
+  width: 1fr;
+
+}
+
